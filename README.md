@@ -1,7 +1,10 @@
 # firstDLL
 
-void printInt(): Function to print the integer part from the union. It also shows the storage size.
+int asciiBinaryToInt(char*)
+Function to convert a string containing binary numbers to the equivalent decimal.
 
-void printString(): Function to print the string part from the union. It also shows the storage size.
+int asciiHEXToInt(char*)
+Function to convert a string containing hexadecimal numbers to the equivalent decimal.
 
-void printDouble(): Function to print the double part from the union. It also shows the limit for the double variables and the storage size.
+double asciiToDouble(char*)
+Function to convert a string containing a rational number to the equivalent in double format.
